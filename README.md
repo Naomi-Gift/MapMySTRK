@@ -1,22 +1,10 @@
-Here’s a complete `README.md` file for your **MapMySTRK** project, designed for clarity, onboarding ease, and contribution:
 
----
-
-````md
 # 🗺️ MapMySTRK
 
 **MapMySTRK** is a community-driven platform that helps users discover local businesses that accept $STRK. Whether you're looking for a café, boutique, or service provider, MapMySTRK puts STRK-accepting merchants on the map—literally.
 
 > **Problem:** People don’t know where to spend $STRK in their area.  
 > **Solution:** A searchable map and dashboard where store owners can list their STRK-friendly businesses, and users can find them easily.
-
----
-
-## 🌐 Live Demo
-
-[Coming Soon]()
-
----
 
 ## ⚙️ Tech Stack
 
@@ -27,8 +15,6 @@ Here’s a complete `README.md` file for your **MapMySTRK** project, designed fo
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Auth**: Starknet wallet connection (Argent X, Braavos)
 
----
-
 ## 🧪 MVP Features (v1)
 
 - 📍 Interactive map with STRK merchant pins
@@ -36,8 +22,6 @@ Here’s a complete `README.md` file for your **MapMySTRK** project, designed fo
 - 🔐 Wallet-based login (Argent X / Braavos)
 - 🔍 Filter and search local STRK businesses
 - ✅ Admin moderation for submissions
-
----
 
 ## 🚀 Getting Started
 
