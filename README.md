@@ -1,7 +1,7 @@
 
-# 🗺️ Mappy
+# 🗺️ MapMySTRK
 
-**Mappy** is a community-driven platform that helps users discover local businesses that accept $STRK. Whether you're looking for a café, boutique, or service provider, MapMySTRK puts STRK-accepting merchants on the map—literally.
+**MapMySTRK** is a community-driven platform that helps users discover local businesses that accept $STRK. Whether you're looking for a café, boutique, or service provider, MapMySTRK puts STRK-accepting merchants on the map—literally.
 
 > **Problem:** People don’t know where to spend $STRK in their area.  
 > **Solution:** A searchable map and dashboard where store owners can list their STRK-friendly businesses, and users can find them easily.
