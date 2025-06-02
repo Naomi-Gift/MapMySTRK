@@ -84,7 +84,6 @@ Pull requests are welcome! For major changes, please open an issue first.
 4. Push to branch: `git push origin feature-name`
 5. Submit a pull request
 
-
 ## Inspiration
 
 This project is part of a growing effort to bring **real-world utility to Starknet** and empower **local crypto economies**.
