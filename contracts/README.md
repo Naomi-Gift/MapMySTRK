@@ -59,8 +59,10 @@ starkliup
 \`\`\`
 
 ### Build Contracts
+
 \`\`\`bash
 # Clone and build
+
 git clone <repository-url>
 cd mappy_contracts
 scarb build
@@ -98,6 +100,7 @@ starkli deploy target/dev/mappy_contracts_Reviews.contract_class.json \
 ## 🔧 Contract Interactions
 
 ### Register a Business
+
 \`\`\`bash
 starkli invoke <BUSINESS_REGISTRY_ADDRESS> register_business \
     str:"Crypto Cafe" \
@@ -109,12 +112,14 @@ starkli invoke <BUSINESS_REGISTRY_ADDRESS> register_business \
 \`\`\`
 
 ### Verify a Business (Moderator only)
+
 \`\`\`bash
 starkli invoke <BUSINESS_REGISTRY_ADDRESS> verify_business \
     u256:1
 \`\`\`
 
 ### Add a Review
+
 \`\`\`bash
 starkli invoke <REVIEWS_ADDRESS> add_review \
     u256:1 \
@@ -123,10 +128,9 @@ starkli invoke <REVIEWS_ADDRESS> add_review \
 \`\`\`
 
 ### Claim Registration Reward
-\`\`\`bash
+
 starkli invoke <REWARDS_ADDRESS> claim_registration_reward \
     u256:1
-\`\`\`
 
 ## 📊 Contract Architecture
 
@@ -154,57 +158,57 @@ starkli invoke <REWARDS_ADDRESS> claim_registration_reward \
 ## 🔐 Security Features
 
 ### Access Control
+
 - **Owner**: Can add/remove moderators, transfer ownership
 - **Moderators**: Can verify/unverify businesses, moderate reviews
 - **Users**: Can register businesses, add reviews, claim rewards
 
 ### Anti-Spam Protection
+
 - One review per user per business
 - One-time reward claims per action
 - Moderator verification required for business approval
 
 ### Data Integrity
+
 - Immutable business registration records
 - Transparent verification process
 - Public review system with flagging
 
-## 🧪 Testing
+#### 🧪 Testing
 
-\`\`\`bash
-# Run contract tests
 scarb test
-
-# Test specific contract
+Test specific contract
 scarb test business_registry
 
-# Run with verbose output
-scarb test -v
-\`\`\`
+### Run with verbose output
 
-## 📈 Gas Optimization
+scarb test -v
+
+### Gas Optimization
 
 The contracts are optimized for:
+
 - **Efficient storage**: Using Maps for O(1) lookups
 - **Batch operations**: Multiple businesses can be queried efficiently
 - **Event indexing**: Key fields are indexed for fast filtering
 
-## 🔮 Future Enhancements
+### Future Enhancements
 
-### Phase 2 Features
+#### Phase 2 Features
+
 - [ ] **NFT Badges**: Issue NFTs for verified businesses
 - [ ] **Staking Mechanism**: Stake STRK for business verification
 - [ ] **Governance Token**: Community voting on platform changes
 - [ ] **Oracle Integration**: Real-world data verification
 
 ### Phase 3 Features
+
 - [ ] **Cross-chain Bridge**: Support for other networks
 - [ ] **DeFi Integration**: Yield farming for staked STRK
 - [ ] **Mobile SDK**: Native mobile app integration
 - [ ] **Analytics Dashboard**: On-chain business analytics
 
-## 📄 License
-
-MIT License - see [LICENSE](../LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -219,7 +223,3 @@ MIT License - see [LICENSE](../LICENSE) file for details.
 - **Issues**: [GitHub Issues](https://github.com/your-username/mappy/issues)
 - **Cairo Docs**: [Cairo Book](https://book.cairo-lang.org/)
 - **Starknet Docs**: [Starknet Documentation](https://docs.starknet.io/)
-
----
-
-**Built with ❤️ for the Starknet ecosystem**
