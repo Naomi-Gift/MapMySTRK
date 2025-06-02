@@ -1,0 +1,21 @@
+{
+    "name": "mapmystrk",
+    "version": "1.0.0",
+    "description": "**MapMySTRK** is a community-driven platform that helps users discover local businesses that accept $STRK. Whether you're looking for a café, boutique, or service provider, MapMySTRK puts STRK-accepting merchants on the map—literally.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@types/node": "^22.15.29",
+      "@types/react": "^19.1.6",
+      "next": "^15.3.3",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
+      "typescript": "^5.8.3"
+    }
+  }
+  
